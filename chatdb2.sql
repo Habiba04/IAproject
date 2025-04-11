@@ -1,0 +1,7 @@
+SELECT TOP (1000) [id]
+      ,[senderName]
+      ,[recieverName]
+      ,[content]
+      ,[senderID]
+      ,[recieverID]
+  FROM [Chat].[dbo].[messages]
